@@ -8,6 +8,11 @@ class Header extends Component {
         return(
             <Navbar className="static-top navbar">
                 <NavbarBrand className="mr-auto"><img src="/assets/images/logo.jpg" /></NavbarBrand>
+                <Nav>
+                    <NavItem>
+                        <NavLink className="nav-link" href="/home">Home</NavLink>
+                    </NavItem>
+                </Nav>
 
             </Navbar>
         )
