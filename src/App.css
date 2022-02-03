@@ -36,3 +36,135 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{ 
+  background-image: linear-gradient(to right, silver, gold);
+  
+}
+
+.nav-link , .navbar-brand{ 
+  color: black; 
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.nav-link{ 
+  margin-left: 1em !important;
+}
+
+.nav-link:hover{ 
+  background: black; 
+  color: gold; 
+}
+
+.navbar-collapse{ 
+  justify-content: flex-end;
+}
+
+.navbar-toggler{  
+  background:#fff !important;
+}
+
+.header{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+}
+
+.centered2 {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.header-text {
+  padding: 20px 50px;
+  color: black;
+  left: 50%;
+  font-size: 2.5em;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  border-radius: 25px
+}
+.head-btn {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #7437e6;
+}
+
+.company-name {
+   font-size: 1.3em
+}
+
+.overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.4);
+ }
+
+.about{
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+ }
+ 
+ .about img{
+  height: 100%;
+     width: 100%;
+     border-radius: 60%
+ }
+
+ .about .descPic{
+  padding: 2em;
+  border-left:4px solid gold;
+ }
+
+ .about .desc h3{
+  color: #7437e6;
+ }
+
+ .about .desc p{
+  line-height:2;
+  
+
+ }
+
+.card h3 {
+  text-align: center;
+}
+
+.card .card-header {
+  background-color: #7437e6;
+  color: white;
+}
+
+.btn-purple {
+  background-color: #7437e6;
+  color: white;
+}
+
+.card-button{
+  text-align: center;
+}
+
+.site-footer {
+  background-image: linear-gradient(silver, gold);
+  padding: 20px 0; }
+
+.gallery-text {
+  text-align: center;
+}
+
